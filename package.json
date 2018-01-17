@@ -1,13 +1,8 @@
 {
   "name": "hangman-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "This a superhero-themed node command line hangman game. It was created by using javascript and the inquirer node package.\r In order to start the game one must use node and select the hangman.js file. You are prompted into the game and must enter letters until you guess the correct ones to win.",
   "main": "hangman.js",
-  "dependencies": {
-    "init": "^0.1.2",
-    "inquirer": "^5.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/lvayavong/hangman-cli.git"
   },
-  "author": "London",
+  "author": "london",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lvayavong/hangman-cli/issues"
   },
-  "homepage": "https://github.com/lvayavong/hangman-cli#readme"
+  "homepage": "https://github.com/lvayavong/hangman-cli#readme",
+  "dependencies": {
+    "init": "^0.1.2",
+    "prompt": "^1.0.0"
+  }
 }
