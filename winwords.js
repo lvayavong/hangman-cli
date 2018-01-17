@@ -1,8 +1,4 @@
-
-
-
-
 exports.game = {
 
-winningWords: ['batman', 'shazam', 'superman', 'ironman', 'spiderman', 'thor', 'hulk'];
+  winningWords: ['batman', 'shazam', 'superman', 'ironman', 'spiderman', 'thor', 'hulk'];
 };
